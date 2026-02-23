@@ -1,5 +1,5 @@
 server:
-  port: ${EUREKA_PORT:8761}
+  port: 8761
 
 
 spring:
@@ -10,4 +10,3 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-
